@@ -1,0 +1,99 @@
+[
+    {
+        "id": "0",
+        "en": "One",
+        "oj": "Bezhig",
+        "digit": "1",
+        "phonetic": "Bay-zh-ick",
+        "img": "src/assets/img/card-bezhig.jpg",
+        "audio": "src/assets/audio/ataageAudio_bezhig.wav",
+        "category": "number"
+    },
+    {
+        "id": "1",
+        "en": "Two",
+        "oj": "Niizh",
+        "digit": "2",
+        "phonetic": "Knee-zh",
+        "img": "src/assets/img/card-niizh.jpg",
+        "audio": "src/assets/audio/ataageAudio_niizh.wav",
+        "category": "number"
+    },
+    {
+        "id": "2",
+        "en": "Three",
+        "oj": "Niswi",
+        "digit": "3",
+        "phonetic": "Nih swi",
+        "img": "src/assets/img/card-niswi.jpg",
+        "audio": "src/assets/audio/ataageAudio_niswi.wav",
+        "category": "number"
+    },
+    {
+        "id": "3",
+        "en": "Four",
+        "oj": "Niiwin",
+        "digit": "4",
+        "phonetic": "Knee win",
+        "img": "src/assets/img/card-niiwin.jpg",
+        "audio": "src/assets/audio/ataageAudio_niiwin.wav",
+        "category": "number"
+    },
+    {
+        "id": "4",
+        "en": "Five",
+        "oj": "Naanan",
+        "digit": "5",
+        "phonetic": "Naa nun",
+        "img": "src/assets/img/card-naanan.jpg",
+        "audio": "src/assets/audio/ataageAudio_naanan.wav",
+        "category": "number"
+    },{
+        "id": "5",
+        "en": "Six",
+        "oj": "Ningodwaaswi",
+        "digit": "6",
+        "phonetic": "Nin-god-aa-swi",
+        "img": "src/assets/img/card-ningodwaaswi.jpg",
+        "audio": "src/assets/audio/ataageAudio_ningodwaaswi.wav",
+        "category": "number"
+    },{
+        "id": "6",
+        "en": "Seven",
+        "oj": "Niizhwaaswi",
+        "digit": "7",
+        "phonetic": "Knee-zh-waa-swi",
+        "img": "src/assets/img/card-niizhwaaswi.jpg",
+        "audio": "src/assets/audio/ataageAudio_niizhwaaswi.wav",
+        "category": "number"
+    },{
+        "id": "7",
+        "en": "Eight",
+        "oj": "Nishwaaswi",
+        "digit": "8",
+        "phonetic": "Nish-waa-swi",
+        "img": "src/assets/img/card-nishwaaswi.jpg",
+        "audio": "src/assets/audio/ataageAudio_nishwaaswi.wav",
+        "category": "number"
+    },{
+        "id": "8",
+        "en": "Nine",
+        "oj": "Zhaangaswi",
+        "digit": "9",
+        "phonetic": "Zh-aan-guh-swi",
+        "img": "src/assets/img/card-zhaangaswi.jpg",
+        "audio": "src/assets/audio/ataageAudio_zhaangaswi.wav",
+        "category": "number"
+    },
+        {
+        "id": "9",
+        "en": "Reverse",
+        "oj": "Azheshkaan",
+        "rules": "Rules: The direction of play reverses. To acknowledge the change, ALL players must say any Ojibwe number (1-9) out loud. Think fast! The last person to respond draws 1 card. Play continues in the new direction.",
+        "phonetic": "Pronunced: Uh-zhe-sh-kaan ",
+        "direct": "Direct Translation: It goes back",
+        "img": "src/assets/img/card-azheshkaan.jpg",
+        "audio": "src/assets/audio/ataageAudio_azheshkaan.wav",
+        "category": "action"
+    }
+]

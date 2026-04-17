@@ -1,0 +1,234 @@
+[
+    {
+        "id": "0",
+        "en": "Counting Cards",
+        "oj": "Ataage Agindaasonan",
+        "audio": "src/assets/audio/ataageAudio_ataage-agindaasonan.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "1",
+        "en": "Last Card",
+        "oj": "Aazha Ishkawaach",
+        "audio": "src/assets/audio/ataageAudio_aazhashort.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "2",
+        "en": "Last Card",
+        "oj": "Aazha Ishkawaach Ataagen",
+        "audio": "src/assets/audio/ataageAudio_aazhalong.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "3",
+        "en": "Pumpkin",
+        "oj": "Agosimaan",
+        "audio": "src/assets/audio/ataageAudio_agosimaan.wav",
+        "category" : "suit"
+    },
+    {
+        "id": "4",
+        "en": "Wild rice",
+        "oj": "Manoomin",
+        "audio": "src/assets/audio/ataageAudio_manoomin.wav",
+        "category" : "suit"
+    },
+    {
+        "id": "5",
+        "en": "Corn",
+        "oj": "Mandaamin",
+        "audio": "src/assets/audio/ataageAudio_mandaamin.wav",
+        "category" : "suit"
+    },
+    {
+        "id": "6",
+        "en": "Plant",
+        "oj": "Gitigaade",
+        "audio": "src/assets/audio/ataageAudio_gitigaade.wav",
+        "category" : "suit"
+    },
+    {
+        "id": "7",
+        "en": "One",
+        "oj": "Bezhig",
+        "audio": "src/assets/audio/ataageAudio_bezhig.wav",
+        "category" : "number"
+    },
+    {
+        "id": "8",
+        "en": "Two",
+        "oj": "Niizh",
+        "audio": "src/assets/audio/ataageAudio_niizh.wav",
+        "category" : "number"
+    },
+    {
+        "id": "9",
+        "en": "Three",
+        "oj": "Niswi",
+        "audio": "src/assets/audio/ataageAudio_niswi.wav",
+        "category" : "number"
+    },
+    {
+        "id": "10",
+        "en": "Four",
+        "oj": "Niiwin",
+        "audio": "src/assets/audio/ataageAudio_niiwin.wav",
+        "category" : "number"
+    },
+    {
+        "id": "11",
+        "en": "Five",
+        "oj": "Naanan",
+        "audio": "src/assets/audio/ataageAudio_naanan.wav",
+        "category" : "number"
+    },
+    {
+        "id": "12",
+        "en": "Six",
+        "oj": "Ningodwaaswi",
+        "audio": "src/assets/audio/ataageAudio_ningodwaaswi.wav",
+        "category" : "number"
+    },
+    {
+        "id": "13",
+        "en": "Seven",
+        "oj": "Niizhwaaswi",
+        "audio": "src/assets/audio/ataageAudio_niizhwaaswi.wav",
+        "category" : "number"
+    },
+    {
+        "id": "14",
+        "en": "Eight",
+        "oj": "Nishwaaswi",
+        "audio": "src/assets/audio/ataageAudio_nishwaaswi.wav",
+        "category" : "number"
+    },
+    {
+        "id": "15",
+        "en": "Nine",
+        "oj": "Zhaangaswi",
+        "audio": "src/assets/audio/ataageAudio_zhaangaswi.wav",
+        "category" : "number"
+    },
+    {
+        "id": "16",
+        "en": "Not you (Skip)",
+        "oj": "Gaawiin Giin",
+        "audio": "src/assets/audio/ataageAudio_gaawiingiin.wav",
+        "category" : "card"
+    },
+    {
+        "id": "17",
+        "en": "Pick up 2",
+        "oj": "Odaapin Niizh",
+        "audio": "src/assets/audio/ataageAudio_odaapinniizh.wav",
+        "category" : "card"
+    },
+    {
+        "id": "18",
+        "en": "Change suit, pick up 4 (Wild card)",
+        "oj": "Odaapin Niiwin, Aaniganoo Tamagen",
+        "audio": "src/assets/audio/ataageAudio_aaniganootamaagenodaapinniiwin-1.wav",
+        "audio2": "src/assets/audio/ataageAudio_aaniganootamaagenodaapinniiwin-2.wav",
+        "category" : "card"
+    },
+    {
+        "id": "19",
+        "en": "Change Suit (Wild card)",
+        "oj": "Odaapin Niizh",
+        "audio": "src/assets/audio/ataageAudio_aaniganootamaagen.wav",
+        "category" : "card"
+    },
+    {
+        "id": "20",
+        "en": "Counting",
+        "oj": "Agindaaasonan",
+        "audio": "src/assets/audio/ataageAudio_agindaasonan.wav",
+        "category" : "card"
+    },
+    {
+        "id": "21",
+        "en": "Go back (Reverse)",
+        "oj": "Azheshkaan",
+        "audio": "src/assets/audio/ataageAudio_azheshkaan.wav",
+        "category" : "card"
+    },
+    {
+        "id": "22",
+        "en": "Shuffle the cards",
+        "oj": "Ginigawinan",
+        "audio": "src/assets/audio/ataageAudio_ginigawinan.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "23",
+        "en": "Is it my turn?",
+        "oj": "Niintam ina?",
+        "audio": "src/assets/audio/ataageAudio_niintamina.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "24",
+        "en": "My turn",
+        "oj": "Niintam",
+        "audio": "src/assets/audio/ataageAudio_niintam.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "25",
+        "en": "Your turn",
+        "oj": "Giintam",
+        "audio": "src/assets/audio/ataageAudio_giintam.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "26",
+        "en": "Their turn",
+        "oj": "Wiintam",
+        "audio": "src/assets/audio/ataageAudio_wiintam.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "27",
+        "en": "You're going down",
+        "oj": "Yetiye",
+        "audio": "src/assets/audio/ataageAudio_yetiye.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "28",
+        "en": "How do you say this?",
+        "oj": "Aaniin izhi ikidowan owe?",
+        "audio": "src/assets/audio/ataageAudio_aaniinizhi.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "29",
+        "en": "I win!",
+        "oj": "Ni bakinaage!",
+        "audio": "src/assets/audio/ataageAudio_nibakinaage.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "23",
+        "en": "You win!",
+        "oj": "Gi bakinaage1",
+        "audio": "src/assets/audio/ataageAudio_gibakinaage.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "23",
+        "en": "I lose",
+        "oj": "Ni bakinaago",
+        "audio": "src/assets/audio/ataageAudio_nibakinaago.wav",
+        "category" : "phrase"
+    },
+    {
+        "id": "23",
+        "en": "Play again?",
+        "oj": "Miinawaa?",
+        "audio": "src/assets/audio/ataageAudio_minawaa.wav",
+        "category" : "phrase"
+    }
+]
