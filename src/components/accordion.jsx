@@ -1,6 +1,6 @@
 import '../index.css'
 import { useState } from "react";
-
+import { CaretDownIcon } from "@phosphor-icons/react";
 
 
 const Accordion = ({ items, keepOthersOpen }) => {
@@ -19,13 +19,6 @@ const Accordion = ({ items, keepOthersOpen }) => {
         }
     }
 
-    // function caretRotation(){
-    //     if (caret === "open"){
-
-    //     }
-
-    // }
-
     return (
         <div className="accordion-parent">
             {items.map((item) => {
@@ -33,41 +26,33 @@ const Accordion = ({ items, keepOthersOpen }) => {
 
                 return (
                     <div className={`accordion ${isOpen ? "toggled" : ""}`} key={item.id}>
-                        <div className="accordion-item">
-                            <div className="accordion-header" onClick={() => handleToggle(item.id)}>
+                        <div className="accordion-item" onClick={() => handleToggle(item.id)}   >
+                            <div className="accordion-header" >
                                 <h3>{item.label}</h3>
-                                <p>&#128899;</p>
-                                <div>{isOpen ? "-" : "+"}</div>
+                                {isOpen ? (
+                                    <CaretDownIcon size={32} style={{ transform: 'rotate(180deg)', transition: 'ease-out 150ms',  color:'var(--primary)' }} />
+
+                                ) : (
+                                    <CaretDownIcon size={32} style={{ transition: 'ease-out 150ms', color:'var(--primary)'}} />
+
+
+                                )}
+
                             </div>
 
-
-                            {isOpen && (
-                                <div className="content">
-                                    {item.renderContent()}
-                                </div>
-                            )}
                         </div>
+
+
+                        {isOpen && (
+                            <div className="content" >
+                                {item.renderContent()}
+                            </div>
+                        )}
                     </div>
                 );
             })}
-        </div>
+        </div >
     );
 };
-
-
-
-
-
-
-
-//   <div className="accordion-item">
-//             <div className="accordion-header" onClick={toggleHadler}>
-//                 <h3>{props.title}</h3>
-//                 <p>&#128899;</p>
-//             </div>
-
-//             <p>{props.text}</p>
-//         </div>
-
 
 export default Accordion

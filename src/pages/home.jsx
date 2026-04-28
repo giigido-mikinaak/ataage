@@ -11,7 +11,7 @@ function Home() {
           <p className='accent'>Don’t forget to bookmark this page</p>
         </div>
 
-        <div className="card-section">
+        <div className="home-card-section">
           <CardsHome
             title="Learn the Game"
             text="Quickly understand how to play. This section holds the: overview, rules, set up, and how to win. Also includes different game difficulty modifiers to match the game to your skill level."

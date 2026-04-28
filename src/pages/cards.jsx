@@ -1,47 +1,58 @@
-import Cardscards from "../components/cards-cards";
+import CardsContainer from "../components/cards-container";
 import { useState } from "react";
-import cardsData from "../data/cardsData.json"
-
+import cardsData from "../data/cardsData.json";
+import Search from "../components/search";
 
 function Cards() {
+  //  CHange category
   const [category, setCategory] = useState("All");
-  const [filteredCards, setFilteredCards] = useState(cardsData);
+  // Search variable and setter
+  const [search, setSearch] = useState("");
 
-  // When click button, select category
   const handleFilter = (e) => {
-    const selectedCategory = e.target.value;
-    setCategory(selectedCategory);
-
-    // filter the cards by all or category name
-    const filtered = cardsData.filter(
-      (c) =>
-        (setCategory === "All" || c.category === selectedCategory)
-    );
-    // Only show filtered cards
-    setFilteredCards(filtered);
+    setCategory(e.target.value)
   };
+  const filteredCards = cardsData
+    .filter((card) => {
+      // filter category
+      if (category === "All") return true;
+      return card.category === category;
+    })
+    .filter((card) => {
+      //search filter
+      // show cards for search
+      return card.en.toLowerCase().includes(search.toLowerCase())
+        ||
+        card.oj.toLowerCase().includes(search.toLowerCase())
+
+    });
+
   return (
     <>
       <main>
         <h1>Cards</h1>
-        <h2>Filter by Category</h2>
-        <select value={category} onChange={handleFilter}>
-          <option value="All">All</option>
-          <option value="number">Number</option>
-          <option value="action">Action</option>
+        <div className="filter-options row">
+          <Search search={search} setSearch={setSearch}></Search>
+          <div className="filter-category">
+            <h3>Filter by Category</h3>
+            <select value={category} onChange={handleFilter}>
+              <option value="All">All</option>
+              <option value="number">Number</option>
+              <option value="action">Action</option>
+            </select>
+          </div>
+        </div>
 
-        </select>
 
         <div className="cards-filter-section">
           {filteredCards.length > 0 ? (
-            filteredCards.map((cardsData) => (
-              <Cardscards key={cardsData.id}></Cardscards>
-            )
-          ))
-           :
-            <p>No cads found</p>}
+            filteredCards.map((card) => (
+              <CardsContainer card={card} key={card.id} ></CardsContainer>
+            ))
+          ) : (
+            <p>No cards found</p>
+          )}
         </div>
-        
       </main>
     </>
   );
