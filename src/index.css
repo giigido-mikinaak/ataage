@@ -279,16 +279,16 @@ p {
 }
 
 .cardshome-container {
-  display: flex;
-  flex-direction: column;
   background-color: var(--card-bg);
-  margin: 1em;
   border: var(--border) solid 2px;
-  border-radius: .5em;
-  padding: 1.875em;
-  flex: 0 0 calc(48% - 1em);
   box-sizing: border-box;
-  transition: all 0.2s ease-in-out;
+  border-radius: .5em;
+  flex-direction: column;
+  flex: 0 0 calc(50% - 1em);
+  margin-bottom: 2em;
+  padding: 1.875em;
+  transition: all .2s ease-in-out;
+  display: flex;
 }
 
 .cardshome-container:hover {
@@ -440,12 +440,11 @@ input:focus-visible {
 
   .row {
     align-self: center;
-    margin-bottom: 4em;
   }
 
 
   img {
-    max-width: 100%;
+    max-width: 6em;
     object-fit: cover;
     /* flex-shrink: 0; */
 
@@ -466,6 +465,15 @@ input:focus-visible {
     margin: 0 1em;
   }
 
+}
+
+.card-rules {
+  margin-bottom: 4em;
+  margin-top: 1em;
+}
+
+.cards-container .row div {
+  align-self: center;
 }
 
 /* Audio Page */
@@ -505,30 +513,17 @@ main.sections {
 
 }
 
-.sections {
-  height: 90dvh;
-  /* enable vertical scrolling */
-  overflow-y: scroll;
-  /* mandatory snapping on y  */
-  scroll-snap-type: y mandatory;
-
-}
-
 .support-primary-text {
-  margin-top: 8%;
-  max-width: 80%;
+  margin-top: .2em;
+  font-size: 10rem;
+  line-height: 120%;
+  letter-spacing: 5%;
 }
-
-.support-secondary-text {}
 
 .section {
-  min-height: 100dvh;
+  min-height: 95dvh;
   display: flex;
-  /* define snap point */
-  scroll-snap-align: start;
-  /* Make sure sections aren't skipped */
-  scroll-snap-stop: always;
-  padding: 0 8%;
+  padding: 6em 8%;
 }
 
 .section-1 {
@@ -570,39 +565,40 @@ main.sections {
     color: #FFF4C3;
   }
 }
-
-.support-primary-text {
+.section-4 .support-primary-text{
   font-size: 8rem;
-  line-height: 120%;
 }
 
 .support-secondary-text {
   font-family: var(--heading);
   font-weight: var(--header-font-weight);
   font-size: 4rem;
+  line-height: 130%;
+  letter-spacing: 5%;
+  margin-top: .2em;
 }
 
 .section-body .row {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-/* .section-4 .section-body .row{
-  flex-wrap: wrap;
-    justify-content: space-between;
-
-} */
-/* .section-4 .section-body .row p{
-  width: 30%;
-  padding-top: 1em;
-  
+section.section:nth-child(4) > div:nth-child(1) > div:nth-child(3){
+  flex-wrap: nowrap;
+  justify-content: flex-start;
 }
-.section-4 .section-body{
-  justify-content: space-between;
-} */
+.section-4 .section-body .row .cultural-impact-supporter img{
+  width: 10em;
+}
+
+
 .cultural-impact-supporter {
-  width: 45%;
-  padding-top: 1em;
+  width: 35%;
+  margin-top: auto;
+}
+.section-4 h3{
+    padding-bottom: 1em;
+    font-size: 1.4rem;
+
 }
 
 .section-4 .section-body .row .cultural-impact-supporter p {
@@ -611,7 +607,7 @@ main.sections {
 
 .section-4 .section-body .row p {
   width: 30%;
-  padding-top: 1em;
+  line-height: 300%;
 }
 
 .section-body {
@@ -641,7 +637,7 @@ main.sections {
 
   /* Home Page */
   .cardshome-container {
-    flex: 0 0 calc(47% - 1em);
+    flex: 0 0 calc(50% - 1em);
   }
 
   /* card page */
@@ -650,7 +646,6 @@ main.sections {
 
     .cards-container {
       width: 100%;
-      text-align: center;
 
 
       .cards-content {
@@ -672,6 +667,15 @@ main.sections {
       }
     }
   }
+
+  .cards-filter-section .cards-container .row {
+    flex-direction: row;
+  }
+
+  .cards-container .row img {
+    width: 7em;
+  }
+
 
   /* Audio Page */
   .audio-card-container {
@@ -716,7 +720,7 @@ main.sections {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: .5em ;
+    padding: .5em;
     max-width: 1200px;
     margin: 0 auto;
     width: 92%;
@@ -806,7 +810,7 @@ main.sections {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
   main {
     padding: 0 4%;
     width: 98%
@@ -835,18 +839,20 @@ main.sections {
     text-align: center;
   }
 
-
   /* cards page */
   .cards-section-container {
     flex-wrap: nowrap;
     flex-direction: column;
-
-    .cards-container {
-      min-width: 100%;
-    }
   }
 
-  /* Card page */
+  .cards-container {
+    min-width: 100%;
+  }
+
+  .cards-container .row img {
+    width: 5em;
+  }
+
   .cards-filter-section .cards-container audio {
     width: 92%;
   }
