@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "/src/assets/img/horizontal-logo.svg";
+import logo from "/img/horizontal-logo.svg";
 import { useState } from "react";
 import NavList from "./nav-list";
 import MobileMenu from "./mobilemenu";
@@ -10,7 +10,7 @@ function Navbar() {
         <header>
             <nav className="navbar">
                 <div className="nav-left">
-                    <Link to="/" className="logo">
+                    <Link to="https://giigidomikinaak.ca/" className="logo">
                         <img src={logo} alt="Logo" />
                     </Link>
                 </div>

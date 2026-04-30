@@ -5,6 +5,7 @@ import Cards from "./pages/cards";
 import Audio from "./pages/audio";
 import Supporters from "./pages/supporters";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/audio" element={<Audio />} />
         <Route path="/supporters" element={<Supporters />} />
       </Routes>
+      <Footer />
 
     </>
 

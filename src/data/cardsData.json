@@ -1,12 +1,79 @@
 [
+     {
+        "id": "9",
+        "en": "Reverse",
+        "oj": "Azheshkaan",
+        "rules": "Rules: The direction of play reverses. To acknowledge the change, ALL players must say any Ojibwe number (1-9) out loud. Think fast! The last person to respond draws 1 card. Play continues in the new direction.",
+        "phonetic": "Pronunced: Uh-zhe-sh-kaan ",
+        "direct": "Direct Translation: It goes back",
+        "img": "/img/card-azheshkaan.jpg",
+        "audio": "/audio/ataageAudio_azheshkaan.mp3",
+        "category": "action"
+    },
+    {
+        "id": "10",
+        "en": "The Counting card",
+        "oj": "Agindaasonan",
+        "rules": "The person who played this card leads the running count in Ojibwe. Each player takes a turn saying a number until they reach 9 as a group. The first person to say a number wrong, draws a card and the count ends. If the count is successful, the leader picks a player to pick up 2 cards. The game continues as normal. Example: Person 1 “Bezhig”, Person 2 “Niizh”, Person 3 “Niswi”, Person 4 “Niiwin”, Person 1 “Naanan” and so forth.",
+        "phonetic": "Pronunced: Uh-g-in-daa-so-nun",
+        "direct": "Direct Translation: Counting (inanimate)",
+        "img": "/img/card-agindaasonan.jpg",
+        "audio": "/audio/ataageAudio_agindaasonan.mp3",
+        "category": "action"
+    },
+    {
+        "id": "11",
+        "en": "Change Suit",
+        "oj": "Aaniganoo Tamaagen",
+        "rules": "Say the name of the card and the name of the suit you wish to change to IN OJIBWE. The next player must play a card in the new suit, or an action card.",
+        "phonetic": "Pronunced: Aa-ni-guh-noo tuh-maag-en",
+        "direct": "Direct Translation: Translate it / change it",
+        "img": "/img/card-aaniganootamaagen.jpg",
+        "audio": "/audio/ataageAudio_aaniganootamaagen.mp3",
+        "category": "action"
+    },
+      {
+        "id": "12",
+        "en": "Change suit, pick up 4 (Wild card)",
+        "oj": "Odaapin Niiwin, Aaniganoo Tamagen",
+        "rules": "Say the name of the card, the name of the suit you wish to change to IN OJIBWE, and \"Odaapin niiwin\". The next player picks up 4 cards and their turn is skipped.",
+        "phonetic": "Pronunced: Aa-ni-guh-noo tuh-maag-en oh-daa-pin knee-win",
+        "direct": "Direct Translation: Translate it / change it, pick up 4",
+        "img": "/img/card-aaniganootamaagenodapinniiwin.jpg",
+        "audio": "/audio/ataageAudio_aaniganootamaagenodaapinniiwin-1.mp3",
+        "audio2": "/audio/ataageAudio_aaniganootamaagenodaapinniiwin-2.mp3",
+        "category": "action"
+    },
+      {
+        "id": "13",
+        "en": "Skip",
+        "oj": "Gaawiin Giin",
+        "rules": "The player says “Gaawiin Giin” to the next player. The next player's turn is skipped.",
+        "phonetic": "Pronunced: Gaa-ween g-een",
+        "direct": "Direct Translation: Not you",
+        "img": "/img/card-gaawiingiin.jpg",
+        "audio": "/audio/ataageAudio_gaawiingiin.mp3",
+        "category": "action"
+    },
+      {
+        "id": "14",
+        "en": "Draw 2",
+        "oj": "Odaapin Niizh",
+        "rules": "The player says “Odaapin Niizh” to the next player. The next player draws 2 cards from the draw pile. Their turn is skipped.",
+        "phonetic": "Pronunced: Uh-zhe-sh-kaan",
+        "direct": "Direct Translation: Pick up 2",
+        "img": "/img/card-odaapinniizh.jpg",
+        "audio": "/audio/ataageAudio_odaapinniizh.mp3",
+        "category": "action"
+    },
     {
         "id": "0",
         "en": "One",
         "oj": "Bezhig",
         "digit": "1",
         "phonetic": "Bay-zh-ick",
-        "img": "src/assets/img/card-bezhig.jpg",
-        "audio": "src/assets/audio/ataageAudio_bezhig.wav",
+        "img": "/img/card-bezhig.jpg",
+        "audio": "/audio/ataageAudio_bezhig.mp3",
         "category": "number"
     },
     {
@@ -15,8 +82,8 @@
         "oj": "Niizh",
         "digit": "2",
         "phonetic": "Knee-zh",
-        "img": "src/assets/img/card-niizh.jpg",
-        "audio": "src/assets/audio/ataageAudio_niizh.wav",
+        "img": "/img/card-niizh.jpg",
+        "audio": "/audio/ataageAudio_niizh.mp3",
         "category": "number"
     },
     {
@@ -25,8 +92,8 @@
         "oj": "Niswi",
         "digit": "3",
         "phonetic": "Nih swi",
-        "img": "src/assets/img/card-niswi.jpg",
-        "audio": "src/assets/audio/ataageAudio_niswi.wav",
+        "img": "/img/card-niswi.jpg",
+        "audio": "/audio/ataageAudio_niswi.mp3",
         "category": "number"
     },
     {
@@ -35,8 +102,8 @@
         "oj": "Niiwin",
         "digit": "4",
         "phonetic": "Knee win",
-        "img": "src/assets/img/card-niiwin.jpg",
-        "audio": "src/assets/audio/ataageAudio_niiwin.wav",
+        "img": "/img/card-niiwin.jpg",
+        "audio": "/audio/ataageAudio_niiwin.mp3",
         "category": "number"
     },
     {
@@ -45,55 +112,48 @@
         "oj": "Naanan",
         "digit": "5",
         "phonetic": "Naa nun",
-        "img": "src/assets/img/card-naanan.jpg",
-        "audio": "src/assets/audio/ataageAudio_naanan.wav",
+        "img": "/img/card-naanan.jpg",
+        "audio": "/audio/ataageAudio_naanan.mp3",
         "category": "number"
-    },{
+    },
+    {
         "id": "5",
         "en": "Six",
         "oj": "Ningodwaaswi",
         "digit": "6",
         "phonetic": "Nin-god-aa-swi",
-        "img": "src/assets/img/card-ningodwaaswi.jpg",
-        "audio": "src/assets/audio/ataageAudio_ningodwaaswi.wav",
+        "img": "/img/card-ningodwaaswi.jpg",
+        "audio": "/audio/ataageAudio_ningodwaaswi.mp3",
         "category": "number"
-    },{
+    },
+    {
         "id": "6",
         "en": "Seven",
         "oj": "Niizhwaaswi",
         "digit": "7",
         "phonetic": "Knee-zh-waa-swi",
-        "img": "src/assets/img/card-niizhwaaswi.jpg",
-        "audio": "src/assets/audio/ataageAudio_niizhwaaswi.wav",
+        "img": "/img/card-niizhwaaswi.jpg",
+        "audio": "/audio/ataageAudio_niizhwaaswi.mp3",
         "category": "number"
-    },{
+    },
+    {
         "id": "7",
         "en": "Eight",
         "oj": "Nishwaaswi",
         "digit": "8",
         "phonetic": "Nish-waa-swi",
-        "img": "src/assets/img/card-nishwaaswi.jpg",
-        "audio": "src/assets/audio/ataageAudio_nishwaaswi.wav",
+        "img": "/img/card-nishwaaswi.jpg",
+        "audio": "/audio/ataageAudio_nishwaaswi.mp3",
         "category": "number"
-    },{
+    },
+    {
         "id": "8",
         "en": "Nine",
         "oj": "Zhaangaswi",
         "digit": "9",
         "phonetic": "Zh-aan-guh-swi",
-        "img": "src/assets/img/card-zhaangaswi.jpg",
-        "audio": "src/assets/audio/ataageAudio_zhaangaswi.wav",
+        "img": "/img/card-zhaangaswi.jpg",
+        "audio": "/audio/ataageAudio_zhaangaswi.mp3",
         "category": "number"
-    },
-        {
-        "id": "9",
-        "en": "Reverse",
-        "oj": "Azheshkaan",
-        "rules": "Rules: The direction of play reverses. To acknowledge the change, ALL players must say any Ojibwe number (1-9) out loud. Think fast! The last person to respond draws 1 card. Play continues in the new direction.",
-        "phonetic": "Pronunced: Uh-zhe-sh-kaan ",
-        "direct": "Direct Translation: It goes back",
-        "img": "src/assets/img/card-azheshkaan.jpg",
-        "audio": "src/assets/audio/ataageAudio_azheshkaan.wav",
-        "category": "action"
     }
 ]

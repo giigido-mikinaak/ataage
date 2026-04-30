@@ -19,7 +19,6 @@ const CardsContainer = ({ card }) => {
                     controlsList="nodownload"
                     preload="metadata"
                     src={card.audio} />
-                Your browser does not support the audio element.
             </div>
     );
 };

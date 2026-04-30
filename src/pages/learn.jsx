@@ -217,8 +217,7 @@ function Learn() {
   return (
     <>
       <main>
-        <h1>Ataage Agindaasonan Instruction Overview</h1>
-        <p>Click an option below to learn more</p>
+        <h1 style={{margin: "1em 0"}}>Ataage Agindaasonan Instruction Overview</h1>
         <div className="info-section">
           <h2>Learn the Game Rules</h2>
           <div className="accordion-section">

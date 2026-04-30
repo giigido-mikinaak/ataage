@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-function NavList({ isOpen })  {
-    return (
-        <div className={`nav-list ${isOpen ? "open" : ""}`}>
+function NavList({ isOpen, className = "" }) {
+  return (
+    <div className={`nav-list ${className} ${isOpen ? "open" : ""}`}>
             <Link to="/" >Home</Link>
             <Link to="/learn">Learn</Link>
             <Link to="/cards">Cards</Link>

@@ -30,7 +30,7 @@ function Cards() {
   return (
     <>
       <main>
-        <h1>Cards</h1>
+        <h1 style={{marginTop: "1em"}}>Cards</h1>
         <div className="filter-options row">
           <Search search={search} setSearch={setSearch}></Search>
           <div className="filter-category">
