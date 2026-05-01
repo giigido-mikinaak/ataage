@@ -38,29 +38,30 @@ function Supporters() {
       <main className="sections">
         <section className="section section-1">
           <div className="section-body" >
-            <motion.h2 className="support-primary-text" 
-            initial={{ opacity: 0, scale: 1.3 }} 
-            transition={{ type: "spring", stiffness: 120, damping: 10, delay: .5 }} 
-            whileInView={{ opacity: 1, scale: 1 }} 
-            viewport={{ once: true }}>124%</motion.h2>
+            <motion.h2 className="support-primary-text"
+              initial={{ opacity: 0, scale: 1.3 }}
+              transition={{ type: "spring", stiffness: 120, damping: 10, delay: .5 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}>124%</motion.h2>
             <motion.p className="support-secondary-text"
               initial={{ opacity: 0, x: 30 }}
-              transition={{ duration: 1, delay: 1.2 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: .8, delay: 1 }}
+              whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}>of our funding goal was raised thanks to your help</motion.p>
           </div>
         </section>
 
-        <section className="section section-2" ref={ref}>
+        <section className="section section-2">
           <div className="section-body">
             <motion.h2 className="support-primary-text"
-              initial={{ opacity: 0 }}
-              transition={{ duration: .3, delay: .4 }}
-              whileInView={{ opacity: 1 }}
+              ref={ref}
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8 }}
               viewport={{ once: true }}>${count.toLocaleString()}</motion.h2>
             <motion.p className="support-secondary-text"
               initial={{ opacity: 0 }}
-              transition={{ duration: .6, delay: 1 }}
+              transition={{ duration: .6, delay: .8 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}>went towards supporting Indigenous language revitalization</motion.p>
           </div>
@@ -72,21 +73,21 @@ function Supporters() {
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: .6, delay: .4 }}
-               viewport={{ once: true }}>118 people</motion.h2>
+              viewport={{ once: true }}>118 people</motion.h2>
             <motion.p className="support-secondary-text"
               initial={{ opacity: 0 }}
-              transition={{ duration: .6, delay: .8 }}
+              transition={{ duration: .7, delay: .7 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}>backed this project. And many more voiced their support!</motion.p>
           </div>
         </section>
 
         <section className="section section-4">
-          <motion.div className="section-body" 
+          <motion.div className="section-body"
             initial={{ opacity: 0, y: 80 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: .2 }}
-               viewport={{ once: true }}>
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: .2 }}
+            viewport={{ once: true }}>
             <h2 className="support-primary-text">Thank you to all of our supporters</h2>
             <h3>Cultural Impact Supporter</h3>
             <div className="row">
@@ -114,15 +115,9 @@ function Supporters() {
               <p>Anders</p>
               <p>Red River College Polytechnic Library</p>
               <p>Patricia</p>
-
             </div>
-
           </motion.div>
         </section>
-
-
-
-
       </main>
     </>
   );
