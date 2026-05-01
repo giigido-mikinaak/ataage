@@ -6,7 +6,7 @@ const CardsContainer = ({ card }) => {
         <div className="cards-container">
             <div className="card-main">
                 <div className="row">
-                    <img className="card-img" src={card.img} alt="" oncontextmenu="return false;" loading="lazy" />
+                    <img className="card-img" src={card.img} alt={card.alt} oncontextmenu="return false;" loading="lazy" />
                     <div>
                         <h3 className='card-names'>{card.oj}</h3>
                         <p className='card-names'>{card.en}</p>

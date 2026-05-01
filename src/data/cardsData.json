@@ -9,18 +9,19 @@
         "img": "/img/card-azheshkaan.jpg",
         "audio": "/audio/ataageAudio_azheshkaan.mp3",
         "category": "action",
-        "alt": "Ojibwe word for X on a card with designs"
+        "alt": "Ojibwe word for Reverse on a card with designs"
     },
     {
         "id": "10",
-        "en": "The Counting card",
+        "en": "Counting",
         "oj": "Agindaasonan",
         "rules": "The person who played this card leads the running count in Ojibwe. Each player takes a turn saying a number until they reach 9 as a group. The first person to say a number wrong, draws a card and the count ends. If the count is successful, the leader picks a player to pick up 2 cards. The game continues as normal. Example: Person 1 “Bezhig”, Person 2 “Niizh”, Person 3 “Niswi”, Person 4 “Niiwin”, Person 1 “Naanan” and so forth.",
         "phonetic": "Pronunced: Uh-g-in-daa-so-nun",
         "direct": "Direct Translation: Counting (inanimate)",
         "img": "/img/card-agindaasonan.jpg",
         "audio": "/audio/ataageAudio_agindaasonan.mp3",
-        "category": "action"
+        "category": "action",
+        "alt": "Ojibwe word for Counting(inanimate) on a card with designs"
     },
     {
         "id": "11",
@@ -31,7 +32,8 @@
         "direct": "Direct Translation: Translate it / change it",
         "img": "/img/card-aaniganootamaagen.jpg",
         "audio": "/audio/ataageAudio_aaniganootamaagen.mp3",
-        "category": "action"
+        "category": "action",
+        "alt": "Ojibwe word for Change Suit on a card with designs"
     },
     {
         "id": "12",
@@ -43,7 +45,8 @@
         "img": "/img/card-aaniganootamaagenodapinniiwin.jpg",
         "audio": "/audio/ataageAudio_aaniganootamaagenodaapinniiwin-1.mp3",
         "audio2": "/audio/ataageAudio_aaniganootamaagenodaapinniiwin-2.mp3",
-        "category": "action"
+        "category": "action",
+        "alt": "Ojibwe word for Change Suit and Pick Up 4 on a card with designs"
     },
     {
         "id": "13",
@@ -54,7 +57,8 @@
         "direct": "Direct Translation: Not you",
         "img": "/img/card-gaawiingiin.jpg",
         "audio": "/audio/ataageAudio_gaawiingiin.mp3",
-        "category": "action"
+        "category": "action",
+        "alt": "Ojibwe word for Skip on a card with designs"
     },
     {
         "id": "14",
@@ -65,7 +69,8 @@
         "direct": "Direct Translation: Pick up 2",
         "img": "/img/card-odaapinniizh.jpg",
         "audio": "/audio/ataageAudio_odaapinniizh.mp3",
-        "category": "action"
+        "category": "action",
+        "alt": "Ojibwe word for Draw 2 on a card with designs"
     },
     {
         "id": "0",
@@ -75,7 +80,8 @@
         "phonetic": "Bay-zh-ick",
         "img": "/img/card-bezhig.jpg",
         "audio": "/audio/ataageAudio_bezhig.mp3",
-        "category": "number"
+        "category": "number",
+        "alt": "Ojibwe word for 1 on a card with designs"
     },
     {
         "id": "1",
@@ -85,7 +91,8 @@
         "phonetic": "Knee-zh",
         "img": "/img/card-niizh.jpg",
         "audio": "/audio/ataageAudio_niizh.mp3",
-        "category": "number"
+        "category": "number",
+        "alt": "Ojibwe word for 2 on a card with designs"
     },
     {
         "id": "2",
@@ -95,7 +102,8 @@
         "phonetic": "Nih swi",
         "img": "/img/card-niswi.jpg",
         "audio": "/audio/ataageAudio_niswi.mp3",
-        "category": "number"
+        "category": "number",
+        "alt": "Ojibwe word for 3 on a card with designs"
     },
     {
         "id": "3",
@@ -105,7 +113,8 @@
         "phonetic": "Knee win",
         "img": "/img/card-niiwin.jpg",
         "audio": "/audio/ataageAudio_niiwin.mp3",
-        "category": "number"
+        "category": "number",
+        "alt": "Ojibwe word for 4 on a card with designs"
     },
     {
         "id": "4",
@@ -115,7 +124,8 @@
         "phonetic": "Naa nun",
         "img": "/img/card-naanan.jpg",
         "audio": "/audio/ataageAudio_naanan.mp3",
-        "category": "number"
+        "category": "number",
+        "alt": "Ojibwe word for 4 on a card with designs"
     },
     {
         "id": "5",
@@ -125,7 +135,8 @@
         "phonetic": "Nin-god-aa-swi",
         "img": "/img/card-ningodwaaswi.jpg",
         "audio": "/audio/ataageAudio_ningodwaaswi.mp3",
-        "category": "number"
+        "category": "number",
+        "alt": "Ojibwe word for 5 on a card with designs"
     },
     {
         "id": "6",
@@ -135,7 +146,8 @@
         "phonetic": "Knee-zh-waa-swi",
         "img": "/img/card-niizhwaaswi.jpg",
         "audio": "/audio/ataageAudio_niizhwaaswi.mp3",
-        "category": "number"
+        "category": "number",
+        "alt": "Ojibwe word for 7 on a card with designs"
     },
     {
         "id": "7",
@@ -145,7 +157,8 @@
         "phonetic": "Nish-waa-swi",
         "img": "/img/card-nishwaaswi.jpg",
         "audio": "/audio/ataageAudio_nishwaaswi.mp3",
-        "category": "number"
+        "category": "number",
+        "alt": "Ojibwe word for 8 on a card with designs"
     },
     {
         "id": "8",
@@ -155,6 +168,7 @@
         "phonetic": "Zh-aan-guh-swi",
         "img": "/img/card-zhaangaswi.jpg",
         "audio": "/audio/ataageAudio_zhaangaswi.mp3",
-        "category": "number"
+        "category": "number",
+        "alt": "Ojibwe word for 9 on a card with designs"
     }
 ]
