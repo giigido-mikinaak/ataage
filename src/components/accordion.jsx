@@ -1,4 +1,3 @@
-import '../index.css'
 import { useState } from "react";
 import { CaretDownIcon } from "@phosphor-icons/react";
 

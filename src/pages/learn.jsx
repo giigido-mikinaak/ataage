@@ -1,6 +1,4 @@
 import Accordion from "../components/accordion";
-import '../index.css'
-
 
 function Learn() {
 

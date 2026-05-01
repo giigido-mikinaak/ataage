@@ -1,4 +1,3 @@
-import '../index.css'
 import audioData from "../data/audioData.json"
 import AudioPlayer from './audioplayer';
 

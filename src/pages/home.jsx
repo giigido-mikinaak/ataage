@@ -1,4 +1,3 @@
-import '../index.css'
 import CardsHome from '../components/cards-home';
 
 function Home() {

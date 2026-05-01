@@ -1,4 +1,3 @@
-import '../index.css'
 import cardsData from "../data/cardsData.json"
 import AudioPlayer from './audioplayer';
 const CardsContainer = ({ card }) => {
