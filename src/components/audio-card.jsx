@@ -1,5 +1,6 @@
 import '../index.css'
 import audioData from "../data/audioData.json"
+import AudioPlayer from './audioplayer';
 
 const Audiocards = ({ item }) => (
     <div className="audio-container">
@@ -7,14 +8,14 @@ const Audiocards = ({ item }) => (
             <div className="audio-card-content">
                 <h3>{item.oj}</h3>
                 <p>{item.en}</p>
-                <audio controls
+                <AudioPlayer src={item.audio}
+                    controls
                     controlsList="nodownload"
-                    preload="metadata"
-                    src={item.audio}></audio>
-                {item.audio2 && (<audio controls
+                    autoPlay />
+                {item.audio2 && <AudioPlayer src={item.audio2}
+                    controls
                     controlsList="nodownload"
-                    preload="metadata"
-                    src={item.audio2}></audio>)}
+                    autoPlay />}
             </div>
         </div>
     </div>

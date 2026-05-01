@@ -92,7 +92,7 @@ function Supporters() {
             <h3>Cultural Impact Supporter</h3>
             <div className="row">
               <div className="cultural-impact-supporter">
-                <img src={supporterLogo} alt="logo" />
+                <img src={supporterLogo} alt="logo" loading="lazy"/>
                 <p>Kevin Anderson Delivery Services</p>
               </div>
               <div className="cultural-impact-supporter">

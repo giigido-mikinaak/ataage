@@ -1,5 +1,5 @@
 [
-     {
+    {
         "id": "9",
         "en": "Reverse",
         "oj": "Azheshkaan",
@@ -8,7 +8,8 @@
         "direct": "Direct Translation: It goes back",
         "img": "/img/card-azheshkaan.jpg",
         "audio": "/audio/ataageAudio_azheshkaan.mp3",
-        "category": "action"
+        "category": "action",
+        "alt": "Ojibwe word for X on a card with designs"
     },
     {
         "id": "10",
@@ -32,7 +33,7 @@
         "audio": "/audio/ataageAudio_aaniganootamaagen.mp3",
         "category": "action"
     },
-      {
+    {
         "id": "12",
         "en": "Change suit, pick up 4 (Wild card)",
         "oj": "Odaapin Niiwin, Aaniganoo Tamagen",
@@ -44,7 +45,7 @@
         "audio2": "/audio/ataageAudio_aaniganootamaagenodaapinniiwin-2.mp3",
         "category": "action"
     },
-      {
+    {
         "id": "13",
         "en": "Skip",
         "oj": "Gaawiin Giin",
@@ -55,7 +56,7 @@
         "audio": "/audio/ataageAudio_gaawiingiin.mp3",
         "category": "action"
     },
-      {
+    {
         "id": "14",
         "en": "Draw 2",
         "oj": "Odaapin Niizh",

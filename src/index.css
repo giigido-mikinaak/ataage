@@ -430,9 +430,9 @@ input:focus-visible {
   border: var(--border) solid 2px;
   border-radius: .5em;
   flex: 0 0 calc(50% - 1em);
-  display: block;
-  align-content: center;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 
   .cards-content {
     width: 70%;
@@ -440,7 +440,7 @@ input:focus-visible {
   }
 
   .row {
-    align-self: center;
+    margin-bottom: 1em;
   }
 
 
@@ -459,22 +459,31 @@ input:focus-visible {
   }
 
   audio {
-    position: absolute;
-    left: 0;
-    bottom: 1.5em;
-    width: 94%;
-    margin: 0 1em;
+    width: 100%;
   }
 
 }
 
-.card-rules {
-  margin-bottom: 4em;
-  margin-top: 1em;
+.card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
 }
 
-.cards-container .row div {
-  align-self: center;
+.cardaudio-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: .5em;
+  margin-top: auto;
+}
+
+.card-rules {
+  margin: 1em 0;
+}
+
+.row {
+  align-items: center;
 }
 
 /* Audio Page */
@@ -673,10 +682,6 @@ section.section:nth-child(4)>div:nth-child(1)>div:nth-child(3) {
       .row {
         flex-direction: column;
       }
-
-      audio {
-        width: 92%;
-      }
     }
   }
 
@@ -690,7 +695,7 @@ section.section:nth-child(4)>div:nth-child(1)>div:nth-child(3) {
 
 
   /* Audio Page */
-  .audio-card-container {
+  .audio-container {
     width: 48%;
   }
 
@@ -839,12 +844,14 @@ section.section:nth-child(4)>div:nth-child(1)>div:nth-child(3) {
   }
 
   /* Card page */
-  .cards-filter-section .cards-container audio {
-    width: 90%;
-  }
 
   section.section:nth-child(4)>div:nth-child(1)>div:nth-child(3) {
     justify-content: space-between;
+  }
+
+  /* Audio Page */
+  .audio-container {
+    width: 100%;
   }
 }
 
@@ -885,6 +892,20 @@ section.section:nth-child(4)>div:nth-child(1)>div:nth-child(3) {
     text-align: center;
   }
 
+  /* Filter sections */
+
+  .filter-options {
+    align-items: normal;
+  }
+
+  .filter-options input {
+    width: 100%;
+  }
+
+  .filter-options select {
+    width: 50%;
+  }
+
   /* cards page */
   .cards-section-container {
     flex-wrap: nowrap;
@@ -899,9 +920,6 @@ section.section:nth-child(4)>div:nth-child(1)>div:nth-child(3) {
     width: 5em;
   }
 
-  .cards-filter-section .cards-container audio {
-    width: 92%;
-  }
 
   /* audio page */
   .audio-container {
@@ -917,13 +935,14 @@ section.section:nth-child(4)>div:nth-child(1)>div:nth-child(3) {
 
   /* support */
   .section {
-  min-height: 70dvh;
-  align-items: center;
-}
+    min-height: 70dvh;
+    align-items: center;
+  }
+
   .support-primary-text {
     font-size: 6rem;
     line-height: 90%;
-    margin-top: 0 ;
+    margin-top: 0;
   }
 
   section.section:nth-child(3)>div:nth-child(1)>p:nth-child(2) {
