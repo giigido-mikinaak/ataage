@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import { lazy, Suspense } from "react";
+import AnalyticsTracker from "./components/AnalyticsTracker";
 
 function App() {
   // lazy load pages so whole app doesnt get rendered at once
@@ -14,6 +15,7 @@ function App() {
     <>
       <Navbar />
       <Suspense fallback={<p>Loading...</p>}>
+        <AnalyticsTracker />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/learn" element={<Learn />} />

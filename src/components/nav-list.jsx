@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 function NavList({ isOpen, className = "" }) {
+  
   return (
     <div className={`nav-list ${className} ${isOpen ? "open" : ""}`}>
             <Link to="/" >Home</Link>
