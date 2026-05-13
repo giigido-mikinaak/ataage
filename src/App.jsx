@@ -14,7 +14,7 @@ function App() {
   const Audio = lazy(() => import("./pages/audio"));
   const Supporters = lazy(() => import("./pages/supporters"));
   const PrivacyPolicy = lazy(() => import("./pages/privacypolicy"));
-  const TOS = lazy(() => import("./pages/TOS"));
+  const Terms = lazy(() => import("./pages/terms"));
   const CookiePolicy = lazy(() => import("./pages/cookiepolicy"));
 
   return (
@@ -29,7 +29,7 @@ function App() {
           <Route path="/audio" element={<Audio />} />
           <Route path="/supporters" element={<Supporters />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/TOS" element={<TOS />} />
+          <Route path="/terms" element={<Terms />} />
           <Route path="/cookiepolicy" element={<CookiePolicy />} />
         </Routes>
       </Suspense>

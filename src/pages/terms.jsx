@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-function CookiePolicy() {
+function Terms() {
 
     useEffect(() => {
 
@@ -19,11 +19,11 @@ function CookiePolicy() {
     return (
         <main className="legal-page">
             <div name="termly-embed"
-                data-id="001673e0-c9e2-4419-b4cb-cbb9e2eda55c"
+                data-id="e6a8b943-0c78-4d47-8f08-156b02d31982" 
                 data-type="iframe">
             </div>
         </main>
     );
 }
 
-export default CookiePolicy;
+export default Terms;
