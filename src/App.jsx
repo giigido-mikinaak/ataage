@@ -2,7 +2,9 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import { lazy, Suspense } from "react";
-import AnalyticsTracker from "./components/AnalyticsTracker";
+import AnalyticsTracker from "./components/analytics-tracker";
+
+
 
 function App() {
   // lazy load pages so whole app doesnt get rendered at once
@@ -11,6 +13,10 @@ function App() {
   const Cards = lazy(() => import("./pages/cards"));
   const Audio = lazy(() => import("./pages/audio"));
   const Supporters = lazy(() => import("./pages/supporters"));
+  const PrivacyPolicy = lazy(() => import("./pages/privacypolicy"));
+  const TOS = lazy(() => import("./pages/TOS"));
+  const CookiePolicy = lazy(() => import("./pages/cookiepolicy"));
+
   return (
     <>
       <Navbar />
@@ -22,6 +28,9 @@ function App() {
           <Route path="/cards" element={<Cards />} />
           <Route path="/audio" element={<Audio />} />
           <Route path="/supporters" element={<Supporters />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/TOS" element={<TOS />} />
+          <Route path="/cookiepolicy" element={<CookiePolicy />} />
         </Routes>
       </Suspense>
       <Footer />

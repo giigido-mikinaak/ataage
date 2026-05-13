@@ -18,6 +18,10 @@ function Footer() {
                     </div>
                     <p>No part of this game or website, including text, audio, visuals, and design, may be reproduced, distributed, or used without prior written permission.</p>
                 </div>
+                <div className="footer-legal">
+                    <Link to="/privacy-policy">Privacy Policy</Link>
+                    <Link to="/terms">Terms of Service</Link>
+                </div>
             </div>
         </footer>
     );
