@@ -1,5 +1,5 @@
 import Audiocards from "../components/audio-card";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Search from "../components/search";
 import audioData from "../data/audioData.json"
 
@@ -7,6 +7,10 @@ import audioData from "../data/audioData.json"
 function Audio() {
   const [category, setCategory] = useState("All");
   const [search, setSearch] = useState("");
+
+  useEffect(() => {
+    document.title = "Audio - Ataage Digital Companion";
+  }, []);
 
   const handleFilter = (e) => {
     setCategory(e.target.value)
@@ -29,7 +33,7 @@ function Audio() {
   return (
     <>
       <main>
-        <h1 style={{marginTop: "1em"}}>Audio</h1>
+        <h1 style={{ marginTop: "1em" }}>Audio</h1>
         <div className="filter-options row">
           <Search search={search} setSearch={setSearch}></Search>
           <div className="filter-category">

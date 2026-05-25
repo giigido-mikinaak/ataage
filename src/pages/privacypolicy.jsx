@@ -1,7 +1,10 @@
 
 import { useEffect } from "react";
-function PrivacyPolicy() {
 
+function PrivacyPolicy() {
+    useEffect(() => {
+        document.title = "Privacy Policy - Ataage Digital Companion";
+    }, []);
     useEffect(() => {
 
         const script = document.createElement("script");

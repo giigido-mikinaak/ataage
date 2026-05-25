@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 
 function Terms() {
+    useEffect(() => {
+        document.title = "Tems of Service - Ataage Digital Companion";
+    }, []);
 
     useEffect(() => {
 
@@ -19,7 +22,7 @@ function Terms() {
     return (
         <main className="legal-page">
             <div name="termly-embed"
-                data-id="e6a8b943-0c78-4d47-8f08-156b02d31982" 
+                data-id="e6a8b943-0c78-4d47-8f08-156b02d31982"
                 data-type="iframe">
             </div>
         </main>

@@ -1,5 +1,5 @@
 import CardsContainer from "../components/cards-container";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import cardsData from "../data/cardsData.json";
 import Search from "../components/search";
 
@@ -8,6 +8,10 @@ function Cards() {
   const [category, setCategory] = useState("All");
   // Search variable and setter
   const [search, setSearch] = useState("");
+
+  useEffect(() => {
+    document.title = "Cards - Ataage Digital Companion";
+  }, []);
 
   const handleFilter = (e) => {
     setCategory(e.target.value)
@@ -30,7 +34,7 @@ function Cards() {
   return (
     <>
       <main>
-        <h1 style={{marginTop: "1em"}}>Cards</h1>
+        <h1 style={{ marginTop: "1em" }}>Cards</h1>
         <div className="filter-options row">
           <Search search={search} setSearch={setSearch}></Search>
           <div className="filter-category">

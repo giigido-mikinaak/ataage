@@ -1,6 +1,10 @@
 import CardsHome from '../components/cards-home';
+import { useEffect } from 'react';
 
 function Home() {
+    useEffect(() => {
+      document.title = "Home - Ataage Digital Companion";
+    }, []);
   return (
     <>
       <main>

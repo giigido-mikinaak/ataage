@@ -3,6 +3,10 @@ import { useEffect } from "react";
 function CookiePolicy() {
 
     useEffect(() => {
+        document.title = "Cookie Policy - Ataage Digital Companion";
+    }, []);
+
+    useEffect(() => {
 
         const script = document.createElement("script");
 

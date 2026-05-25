@@ -1,6 +1,10 @@
 import Accordion from "../components/accordion";
+import { useEffect } from "react";
 
 function Learn() {
+  useEffect(() => {
+    document.title = "Learn - Ataage Digital Companion";
+  }, []);
 
   const instructionData = [
     {
@@ -215,7 +219,7 @@ function Learn() {
   return (
     <>
       <main>
-        <h1 style={{margin: "1em 0"}}>Ataage Agindaasonan Instruction Overview</h1>
+        <h1 style={{ margin: "1em 0" }}>Ataage Agindaasonan Instruction Overview</h1>
         <div className="info-section">
           <h2>Learn the Game Rules</h2>
           <div className="accordion-section">
